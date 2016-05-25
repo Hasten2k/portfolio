@@ -1,0 +1,2 @@
+function resizeWrappers(){$(".wrapper").css("height",innerHeight),$(".iphone").css("height",innerHeight-topBarHeight)}$(document).foundation();var innerHeight=$(window).innerHeight(),topBarHeight=$(".top-bar").outerHeight();$(document).ready(resizeWrappers),$(window).resize(resizeWrappers);
+//# sourceMappingURL=./app-min.js.map

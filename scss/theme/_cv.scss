@@ -1,0 +1,23 @@
+.education, .work-experience, .extra-curricular {
+	@include breakpoint(medium) {
+		h3, h4, p {
+			text-align: left;
+			&.right {
+				text-align: right;
+			}
+		}
+		h3 {
+			line-height: 1.0;
+		}
+	}
+	.right {
+		@include breakpoint(medium) {
+			text-align: right;
+		}
+	}
+}
+
+.education {
+	background-color: $black;
+	color: $white;
+}

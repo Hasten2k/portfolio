@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1920px" height="600px" viewBox="0 0 1920 600" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>masthead_bg_xlarge</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="0%" cy="0%" fx="0%" fy="0%" r="141.421356%" id="radialGradient-1">
+            <stop stop-color="#18E98A" offset="0%"></stop>
+            <stop stop-color="#1C9BE2" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Masthead-BGs" transform="translate(0.000000, -1390.000000)" fill="url(#radialGradient-1)">
+            <rect id="masthead_bg_xlarge" x="0" y="1390" width="1920" height="600"></rect>
+        </g>
+    </g>
+</svg>

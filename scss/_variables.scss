@@ -1,0 +1,70 @@
+//------------------
+//		Globals
+//------------------
+
+$section-padding-small: rem-calc(80px);
+$section-padding-medium: rem-calc(110px);
+$section-padding-large: rem-calc(140px);
+$section-padding-xlarge: $section-padding-large;
+
+$image-aspect-ratio: ( 600/800 );
+
+
+// -----------------
+//		Main Menu
+//------------------
+$animation: all 0.3s ease-in-out;
+
+// -----------------
+//		Masthead
+//------------------
+
+$masthead-height-small:		rem-calc(320px);
+$masthead-height-medium: 	rem-calc(420px);
+$masthead-height-large: 	rem-calc(500px);
+$masthead-height-xlarge: 	rem-calc(600px);
+
+
+// -----------------
+//		Carousel
+//------------------
+
+$carousel-height-small: 	rem-calc(315px);
+$carousel-height-medium:	rem-calc(415px);
+$carousel-height-large: 	rem-calc(630px);
+$carousel-height-xlarge: 	rem-calc(880px);
+
+$carousel-padding-small: 	rem-calc(35px);
+$carousel-padding-medium: 	$carousel-padding-small;
+$carousel-padding-large: 	rem-calc(50px);
+$carousel-padding-xlarge: 	rem-calc(75px);
+
+$carousel-row-height-small: 	$carousel-height-small - (2 * $carousel-padding-small);
+$carousel-row-height-medium: 	$carousel-height-medium - (2 * $carousel-padding-medium);
+$carousel-row-height-large: 	$carousel-height-large - (2 * $carousel-padding-large);
+$carousel-row-height-xlarge: 	$carousel-height-xlarge - (2 * $carousel-padding-xlarge);
+
+$carousel-slide-width-small:	rem-calc(280px);
+$carousel-slide-width-medium:	rem-calc(280px);
+$carousel-slide-width-large:	rem-calc(400px);
+$carousel-slide-width-xlarge:	rem-calc(600px);
+
+$carousel-slide-height-small:	rem-calc(210px);
+$carousel-slide-height-medium:	rem-calc(210px);
+$carousel-slide-height-large:	rem-calc(300px);
+$carousel-slide-height-xlarge:	rem-calc(450px);
+
+
+// --------------------------
+//		Portfolio Item
+//---------------------------
+
+$item-preview-image-width-small: $carousel-slide-width-small;
+$item-preview-image-width-medium: $carousel-slide-width-large;
+$item-preview-image-width-large: $carousel-slide-width-xlarge;
+$item-preview-image-width-xlarge: $item-preview-image-width-large;
+
+$item-preview-image-height-small: $item-preview-image-width-small * $image-aspect-ratio;
+$item-preview-image-height-medium: $item-preview-image-width-medium * $image-aspect-ratio;
+$item-preview-image-height-large: $item-preview-image-width-large * $image-aspect-ratio;
+$item-preview-image-height-xlarge: $item-preview-image-height-large;

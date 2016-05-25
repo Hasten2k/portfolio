@@ -1,0 +1,40 @@
+// ----------------------
+// 		main menu
+// ----------------------
+
+.menu-container {
+	transition: $animation;
+	&.dark {
+		background-color: $white;
+		border-bottom: 1px solid $medium-gray;
+		.menu-icon {
+			&::after {
+				background-color: $dark-gray;
+				box-shadow: 0 7px 0 $dark-gray, 0 14px 0 $dark-gray;
+				transition: $animation;
+			}
+		}
+		.menu {
+			background-color: transparent;
+			a {
+				color: $black;
+			}
+		}
+	}
+}
+
+.menu {
+	@include breakpoint(small) {
+		background-color: rgba($black, 0.7);
+	}
+	@include breakpoint(medium) {
+		background-color: transparent;
+	}
+	a {
+		color: $white;
+		font-weight: $font-weight-semibold;
+	}
+	&.vertical > li > a {
+		justify-content: center;
+	}
+}

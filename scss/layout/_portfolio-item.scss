@@ -1,0 +1,26 @@
+.preview {
+
+	margin-bottom: 0;
+
+	p {
+		margin: 0;
+	}
+	.preview-image {
+		@include preview-image-size;
+		margin: 0 auto;
+	}
+	.image-meta {
+		@include preview-image-size;
+		height: auto !important; // override the height statements in the preview-image-size mixin
+		margin: 0 auto rem-calc(50px); //make sure the text aligns in the middle
+	}
+	.filename {
+		float: left;
+	}
+	.filesize {
+		float: right;
+	}
+	.click-info {
+		clear: left;
+	}
+}

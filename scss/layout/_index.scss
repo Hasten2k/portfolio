@@ -1,0 +1,51 @@
+.carousel {
+	@include carousel-height;
+	@include carousel-padding;
+
+	margin-bottom: rem-calc(30px);
+
+	&.row {
+		max-width: initial;
+	}
+
+	.slide {
+		@include orbit-slide;
+	}
+
+	.orbit-container {
+		margin: 0 auto;
+	}
+
+	.slide {
+		@include carousel-image-size;
+	}
+
+	.slide-image {
+		@include carousel-image-size;
+	}
+
+	.carousel-header {
+		@include breakpoint(small) {
+			margin: rem-calc(10px) 0;
+		}
+		@include breakpoint(small)
+		@include breakpoint(small)
+		padding: 0;
+	}
+}
+
+.tools {
+	@include breakpoint(small) {
+		margin-top: $section-padding-small;
+	}
+	@include breakpoint(medium) {
+		margin-top: $section-padding-medium;
+	}
+	@include breakpoint(large) {
+		margin-top: $section-padding-large;
+	}
+}
+
+.main-page-cv {
+	padding-bottom: 0;
+}

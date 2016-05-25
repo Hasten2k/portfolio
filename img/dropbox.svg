@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="87px" height="81px" viewBox="0 0 87 81" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 3.7.2 (28276) - http://www.bohemiancoding.com/sketch -->
+    <title>dropbox</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="100%" id="radialGradient-1">
+            <stop stop-color="#18E98A" offset="0%"></stop>
+            <stop stop-color="#1C9BE2" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="iPhone" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Main-Page---iPhone---1.0" transform="translate(-117.000000, -1873.000000)" fill="url(#radialGradient-1)">
+            <g id="Tools---1-column" transform="translate(10.000000, 1453.000000)">
+                <g id="dropbox-2" transform="translate(107.000000, 420.000000)">
+                    <path d="M25.5920122,0 L0,16.7097303 L17.6953534,30.8803554 L43.5,14.9461154 L25.5920122,0 Z M0,45.0518144 L25.5920122,61.7615447 L43.5,46.8137616 L17.6953534,30.8803554 L0,45.0518144 Z M43.5,46.8137616 L61.4079878,61.7615447 L87,45.0518144 L69.3046466,30.8803554 L43.5,46.8137616 Z M87,16.7097303 L61.4079878,0 L43.5,14.9461154 L69.3046466,30.8803554 L87,16.7097303 Z M43.5525332,50.0299615 L25.5920122,64.9335499 L17.9063201,59.9153775 L17.9063201,65.5406004 L43.5525332,80.9194893 L69.1987463,65.5406004 L69.1987463,59.9153775 L61.5130542,64.9335499 L43.5525332,50.0299615 Z" id="dropbox"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

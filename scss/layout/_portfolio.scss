@@ -1,0 +1,30 @@
+.portfolio-cards {
+	h4 {
+		margin: 0 0 rem-calc(10px) 0;
+	}
+
+	p{
+		margin: 0 auto rem-calc(20px);
+		max-width: $carousel-slide-width-small;
+	}
+
+}
+
+.portfolio-card {
+	display: block;
+	@include breakpoint(small) {
+		margin: 0 auto rem-calc(20px);
+	}
+	@include breakpoint(medium) {
+		margin: 0 auto rem-calc(50px);
+	}
+	@include breakpoint(large) {
+		margin: 0 auto rem-calc(100px);
+	}
+}
+
+.portfolio-card-image {
+	width: $carousel-slide-width-small;
+	height: rem-calc(220px);
+	margin: 0 auto rem-calc(20px);
+}

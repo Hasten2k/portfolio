@@ -1,0 +1,13 @@
+.preview {
+	p {
+		font-size: $global-font-size * 0.8;
+		text-align: left;
+		color: $dark-gray;
+	}
+	.preview-image {
+		background-color: $black;
+		background-position: 50%;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+}

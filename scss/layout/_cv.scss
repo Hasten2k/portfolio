@@ -1,0 +1,25 @@
+img.cv {
+		margin: 0 auto rem-calc(15px);
+		@include breakpoint(medium) {
+			float: right;
+			margin: 0 0 rem-calc(15px) 0;
+		}
+		&.right {
+			@include breakpoint(medium) {
+				float: left;
+			}
+		}
+	}
+
+.education, .work-experience, .extra-curricular {
+	.row {
+		margin-bottom: rem-calc(50px);
+		&:last-child {
+			margin-bottom: initial;
+		}
+	}
+}
+
+.education {
+	@include section-padding;
+}

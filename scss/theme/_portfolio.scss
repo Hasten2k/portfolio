@@ -1,0 +1,61 @@
+/*===============================================
+=            Style for the Portfolio            =
+===============================================*/
+
+.portfolio-cards {
+	a {
+		color: $body-font-color;
+		&:hover {
+			color: $anchor-color-hover;
+		}
+	}
+}
+
+.portfolio-card-image {
+	background-color: $white;
+	box-shadow: 0px 3px 4px rgba($black, 0.4);
+	background-position: 50% 0;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+	&.guestdo {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/guestdo/small@2x.png');
+		}
+	}
+	&.cine {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/cine/small@2x.png');
+		}
+	}
+	&.imdb {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/imdb/small@2x.png');
+		}
+	}
+	&.invoice {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/invoice-template/small@2x.png');
+		}
+	}
+	&.big-sur {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/big-sur/small@2x.png');
+		}
+	}
+	&.uber {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/uber/small@2x.png');
+		}
+	}
+	&.card-payment {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/card-payment/small@2x.png');
+		}
+	}
+	&.facebook {
+		@include breakpoint(small) {
+			background-image: url('../img/portfolio/facebook/small@2x.png');
+		}
+	}
+}

@@ -1,0 +1,2 @@
+$(document).foundation(),$(function(){var n=$(".menu-container");$(window).scroll(function(){var o=$(window).scrollTop();o>=1?n.animate().addClass("dark"):n.removeClass("dark")})});
+//# sourceMappingURL=./app-min.js.map

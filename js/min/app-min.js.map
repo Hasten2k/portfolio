@@ -1,0 +1,1 @@
+{"version":3,"sources":["../app.js"],"names":["$","document","foundation","header","window","scroll","scrollTop","animate","addClass","removeClass"],"mappings":"AAAAA,EAAEC,UAAUC,aAEZF,EAAE,WAEE,GAAIG,GAASH,EAAE,kBACfA,GAAEI,QAAQC,OAAO,WACb,GAAIA,GAASL,EAAEI,QAAQE,WAEnBD,IAAU,EACVF,EAAOI,UAAUC,SAAS,QAE1BL,EAAOM,YAAY","file":"app-min.js"}

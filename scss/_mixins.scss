@@ -1,0 +1,165 @@
+// ---------------------
+// 		Globals
+// ---------------------
+
+@mixin section-padding {
+	@include breakpoint(small) {
+		padding: $section-padding-small 0;
+	}
+	@include breakpoint(medium) {
+		padding: $section-padding-medium 0;
+	}
+	@include breakpoint(large) {
+		padding: $section-padding-large 0;
+	}
+	@include breakpoint(xlarge) {
+		padding: $section-padding-xlarge 0;
+	}
+}
+
+@mixin section-margins {
+	@include breakpoint(small) {
+		margin: 0 0 $section-padding-small 0;
+	}
+	@include breakpoint(medium) {
+		margin: 0 0 $section-padding-medium 0;
+	}
+	@include breakpoint(large) {
+		margin: 0 0 $section-padding-large 0;
+	}
+	@include breakpoint(xlarge) {
+		margin: 0 0 $section-padding-xlarge 0;
+	}
+}
+
+@mixin logo-size {
+	@include breakpoint(small) {
+		height: rem-calc(70px);
+		display: block;
+		margin: rem-calc(50px) auto rem-calc(15px);
+	}
+	@include breakpoint(medium) {
+		height: rem-calc(80px);
+	}
+	@include breakpoint(large) {
+		height: rem-calc(90px);
+	}
+}
+
+
+//----------------------
+//		Masthead
+//----------------------
+
+@mixin masthead-height {
+	@include breakpoint(small) {
+		height: $masthead-height-small;
+	}
+	@include breakpoint(medium) {
+		height: $masthead-height-medium;
+	}
+	@include breakpoint(large) {
+		height: $masthead-height-large;
+	}
+	@include breakpoint(xlarge) {
+		height: $masthead-height-xlarge;
+	}
+}
+
+
+//----------------------
+//		Carousel
+//----------------------
+
+@mixin carousel-height {
+	@include breakpoint(small) {
+		height: $carousel-height-small;
+	}
+	@include breakpoint(medium) {
+		height: $carousel-height-medium;
+	}
+	@include breakpoint(large) {
+		height: $carousel-height-large;
+	}
+	@include breakpoint(xlarge) {
+		height: $carousel-height-xlarge;
+	}
+}
+
+@mixin carousel-padding {
+	@include breakpoint(small) {
+		padding: $carousel-padding-small 0;
+	}
+	@include breakpoint(medium) {
+		padding: $carousel-padding-small 0;
+	}
+	@include breakpoint(large) {
+		padding: $carousel-padding-small 0;
+	}
+	@include breakpoint(xlarge) {
+		padding: $carousel-padding-small 0;
+	}
+}
+
+@mixin carousel-image-size {
+	@include breakpoint(small) {
+		width: $carousel-slide-width-small;
+		height: $carousel-slide-height-small;
+	}
+	@include breakpoint(medium) {
+		width: $carousel-slide-width-medium;
+		height: $carousel-slide-height-medium;
+	}
+	@include breakpoint(large) {
+		width: $carousel-slide-width-large;
+		height: $carousel-slide-height-large;
+	}
+	@include breakpoint(xlarge) {
+		width: $carousel-slide-width-xlarge;
+		height: $carousel-slide-height-xlarge;
+	}
+}
+
+
+//--------------------------
+//		Portfolio Item
+//--------------------------
+
+@mixin preview-image-size {
+	@include breakpoint(small) {
+		width: $item-preview-image-width-small;
+		height: $item-preview-image-height-small;
+	}
+	@include breakpoint(medium) {
+		width: $item-preview-image-width-medium;
+		height: $item-preview-image-height-medium;
+	}
+	@include breakpoint(large) {
+		width: $item-preview-image-width-large;
+		height: $item-preview-image-height-large;
+	}
+	@include breakpoint(xlarge) {
+		width: $item-preview-image-width-xlarge;
+		height: $item-preview-image-height-xlarge;
+	}
+}
+
+
+//----------------------
+//		Footer
+//----------------------
+
+@mixin footer-margin {
+	@include breakpoint(small) {
+		margin: $section-padding-small 0 0 0;
+	}
+	@include breakpoint(medium) {
+		margin: $section-padding-medium 0 0 0;
+	}
+	@include breakpoint(large) {
+		margin: $section-padding-large 0 0 0;
+	}
+	@include breakpoint(xlarge) {
+		margin: $section-padding-xlarge 0 0 0;
+	}
+}

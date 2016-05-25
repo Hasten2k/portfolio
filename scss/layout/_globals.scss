@@ -1,0 +1,55 @@
+section {
+	@include section-margins;
+}
+
+img {
+	@include logo-size;
+}
+
+.masthead {
+	@include masthead-height;
+	width: 100;
+
+	@include section-margins;
+
+	svg {
+		@include masthead-height;
+		width: 100%;
+		rect {
+			@include masthead-height;
+			width: 100%;
+		}
+	}
+
+	.row {
+		@include masthead-height;
+	}
+}
+
+
+
+.link {
+	display: block;
+	max-width: rem-calc(280px);
+
+	@include breakpoint(small) {
+		margin: rem-calc(30px) auto;
+	}
+	@include breakpoint(small)
+	@include breakpoint(small)
+
+	i {
+		display: inline-block;
+		margin-left: 10px;
+		&.back {
+			margin-right: 10px;
+			margin-left: 0;
+		}
+	}
+}
+
+
+footer {
+	@include section-padding;
+	@include footer-margin;
+}
