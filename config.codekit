@@ -9640,6 +9640,17 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/jade\/includes\/footer.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/includes\/footer.jade",
+		"outputAbbreviatedPath": "\/footer.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/includes\/header.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
