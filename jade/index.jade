@@ -22,22 +22,29 @@ body
         p My name is Carl and I am an ambitious project manager and aspiring front-end designer and programmer.
         p This is my corner of the web where you can see what I've done previously and get in touch with me!
 
+  section.carousel.row.align-middle.align-center
+    .orbit(role="region" aria-label="Portfolio Slider" data-orbit data-options="slideClass: slide; animInFromLeft: scale-in-down; nimInFromRight: scale-in-up; animOutFromLeft: scale-in-up; animOutFromRight: scale-out-up;")
+      ul.orbit-container
+        li.slide.is-active
+          .slide-image(data-interchange="[img/portfolio/guestdo/small@2x.png, small], [img/portfolio/guestdo/medium@2x.png, medium], [img/portfolio/guestdo/large@2x.png, large], [img/portfolio/guestdo/large@2x.png, xlarge]")
+        li.slide
+          .slide-image(data-interchange="[img/portfolio/cine/small@2x.png, small], [img/portfolio/cine/medium@2x.png, medium], [img/portfolio/cine/large@2x.png, large], [img/portfolio/cine/large@2x.png, xlarge]")
+        li.slide
+          .slide-image(data-interchange="[img/portfolio/imdb/small@2x.png, small], [img/portfolio/imdb/medium@2x.png, medium], [img/portfolio/imdb/large@2x.png, large], [img/portfolio/imdb/large@2x.png, xlarge]")
+
+      //- Carousel navigation
+      nav.orbit-bullets
+        button.is-acitve(data-slide="0")
+          span.show-for-sr First Slide
+          span.show-for-sr Current Slide
+        button(data-slide="1")
+          span.show-for-sr Second Slide
+        button(data-slide="2")
+          span.show-for-sr Third Slide
+
   include ./includes/footer.jade
 
-//- 
-//- <section class="introduction">
-//-   <div class="row align-center">
-//-     <div class="small-12 medium-8 large-6 xlarge-5 columns">
-//-       <h2>It's great to meet you!</h2>
-//-     </div>
-//-   </div>
-//-   <div class="row align-center">
-//-     <div class="small-12 medium-6 large-5 columns">
-//-       <p>My name is Carl and I am an ambitious project manager and aspiring front-end designer and programmer.</p>
-//-       <p>This is my corner of the web where you can see what I’ve done before and get in touch with me!</p>
-//-     </div>
-//-   </div>
-//- </section>
+
 //- 
 //- <section class="carousel row align-middle align-center">
 //-   <div class="orbit" role="region" aria-label="Portfolio Slider" data-orbit data-options="slideClass: slide; animInFromLeft: scale-in-down; animInFromRight: scale-in-up; animOutFromLeft: scale-in-up; animOutFromRight: scale-out-up;">
