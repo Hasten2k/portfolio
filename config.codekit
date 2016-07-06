@@ -9631,15 +9631,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/index.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/invoice.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -9663,8 +9654,8 @@
 	"\/jade\/includes\/main-menu.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/jade\/includes\/main-menu.jade",
 		"outputAbbreviatedPath": "\/main-menu.html",
 		"outputPathIsOutsideProject": 0,
