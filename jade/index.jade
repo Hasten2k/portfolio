@@ -42,37 +42,28 @@ body
         button(data-slide="2")
           span.show-for-sr Third Slide
 
+  .row
+    .small-12.columns
+      a(href="portfolio.html").button.hollow.link Check out my full portfolio!
+        i.cine-icon.cine-icon-angle-right
+
+  section.tools
+    .row
+      .small-12.columns
+        h2 The tools I both use, know and love
+
+    .row.align-center
+      //- Build an array of objects with tools and images
+      - var tools = [{name: 'Sketch', filename: 'sketch.svg'}, {name: 'Photoshop CS6', filename: 'photoshop.svg'}, {name: 'CodeKit', filename: 'codekit.svg'}, {name: 'Atom.io', filename: 'atom.svg'}, {name: 'Foundation 6', filename: 'foundation.svg'}, {name: 'Bootstrap 4', filename: 'bootstrap.svg'}, {name: 'Jade', filename: 'jade.svg'}, {name: 'HTML 5', filename: 'html5.svg'},  {name: 'SASS', filename: 'sass.svg'}, {name: 'CSS 3', filename: 'css3.svg'}, {name: 'JavaScript', filename: 'js.svg'}]
+      //- Iterate over the tools array above
+      each val, index in tools 
+        div.small-6.medium-4.large-3.columns
+          img(src="img/#{val.filename}")
+          p #{val.name}
+
   include ./includes/footer.jade
 
 
-//- 
-//- <section class="carousel row align-middle align-center">
-//-   <div class="orbit" role="region" aria-label="Portfolio Slider" data-orbit data-options="slideClass: slide; animInFromLeft: scale-in-down; animInFromRight: scale-in-up; animOutFromLeft: scale-in-up; animOutFromRight: scale-out-up;">
-//-     <ul class="orbit-container">
-//-       <li class="slide is-active">
-//-         <div class="slide-image" data-interchange="[img/portfolio/guestdo/small@2x.png, small], [img/portfolio/guestdo/medium@2x.png, medium], [img/portfolio/guestdo/large@2x.png, large], [img/portfolio/guestdo/large@2x.png, xlarge]"></div>
-//-       </li>
-//-       <li class="slide">
-//-         <div class="slide-image" data-interchange="[img/portfolio/cine/small@2x.png, small], [img/portfolio/cine/medium@2x.png, medium], [img/portfolio/cine/large@2x.png, large], [img/portfolio/cine/large@2x.png, xlarge]"></div>
-//-       </li>
-//-       <li class="slide">
-//-         <div class="slide-image" data-interchange="[img/portfolio/imdb/small@2x.png, small], [img/portfolio/imdb/medium@2x.png, medium], [img/portfolio/imdb/large@2x.png, large], [img/portfolio/imdb/large@2x.png, xlarge]"></div>
-//-       </li>
-//-     </ul>
-//-     <nav class="orbit-bullets">
-//-       <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
-//-       <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
-//-       <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
-//-     </nav>
-//-   </div>
-//- </section>
-//- 
-//- <div class="row">
-//-   <div class="small-12 columns">
-//-     <a href="portfolio.html" class="button hollow link">Check out my full portfolio! <i class="cine-icon cine-icon-angle-right"></i></a>
-//-   </div>
-//- </div>
-//- 
 //- <section class="tools">
 //-   <div class="row">
 //-     <div class="small-12 columns">
