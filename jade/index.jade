@@ -67,7 +67,7 @@ body
         h2 Some of the formal stuff
         p What I have studied and where
 
-    - var cvContent = [{title: 'BSc in Business & Economics', place: 'Stockholm School of Economics', amount: '180 ECTS', image: 'sse.svg'}]
+    - var cvContent = [{title: 'BSc in Business & Economics', place: 'Stockholm School of Economics', amount: '180 ECTS', image: 'sse.svg'}, {title: 'International Relations', place: 'Stockholm University', amount: '30 ECTS', image: 'su.svg'}, {title: 'Web Design & Programming', place: 'Team Treehouse', amount: 'about 100 hours of effective training', image: 'treehouse.svg'}]
     .row.align-center
       each item in cvContent
         .small-12.medium-8.large-6.columns
@@ -78,33 +78,7 @@ body
 
   include ./includes/footer.jade
 
-//- <section class="main-page-cv">
-//-   <div class="row">
-//-     <div class="small-12">
-//-       <h2>Some of the formal stuff</h2>
-//-       <p>What I have studied and where</p>
-//-     </div>
-//-   </div>
-//-   <div class="row align-center">
-//-     <div class="small-12 medium-8 large-6 columns">
-//-       <img src="img/sse.svg">
-//-       <h3>BSc in Business &amp; Economics</h3>
-//-       <h4>Stockholm School of Economics</h4>
-//-       <p>180 ECTS</p>
-//-     </div>
-//-     <div class="small-12 medium-8 large-6 columns">
-//-       <img src="img/su.svg">
-//-       <h3>International Relations</h3>
-//-       <h4>Stockholm University</h4>
-//-       <p>30 ECTS</p>
-//-     </div>
-//-     <div class="small-12 medium-8 large-6 columns">
-//-       <img src="img/treehouse.svg">
-//-       <h3>Web Design &amp; Programming</h3>
-//-       <h4>Team Treehouse</h4>
-//-       <p>About 100 hours of effective training</p>
-//-     </div>
-//-   </div>
+
 //- 
 //-   <div class="row">
 //-     <div class="small-12 columns">
