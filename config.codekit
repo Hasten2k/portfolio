@@ -6232,7 +6232,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery-min.js",
@@ -6265,7 +6265,7 @@
 		},
 	"\/bower_components\/jquery\/dist\/jquery.slim.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.slim.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/jquery\/dist\/min\/jquery.slim.min-min.js",
@@ -8288,7 +8288,7 @@
 		},
 	"\/bower_components\/what-input\/what-input.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
 		"outputAbbreviatedPath": "\/bower_components\/what-input\/min\/what-input-min.js",
@@ -8299,7 +8299,7 @@
 		},
 	"\/bower_components\/what-input\/what-input.min.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/bower_components\/what-input\/what-input.min.js",
 		"outputAbbreviatedPath": "\/bower_components\/what-input\/min\/what-input.min-min.js",
@@ -9627,6 +9627,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/index copy.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/index.html": {
+		"fileType": 8192,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -14384,13 +14393,13 @@
 	"\/js\/app.js": [
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.slim.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
 			"position": 0,
 			"type": 0
 			},
 		{
 			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.min.js",
+			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
 			"position": 1,
 			"type": 0
 			},
