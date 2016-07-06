@@ -24,6 +24,7 @@ html.no-js
           h2 Where I learned (most) of what I know
 
       - var educationItems = [{title: 'BSc in Business & Economics', place: 'from the Stockholm School of Economics', amount: '180 ECTS', image: 'sse.svg'}, {title: 'International Relations', place: 'Stockholm University', amount: '30 ECTS', image: 'su.svg'}, {title: 'Web Design & Programming', place: 'Team Treehouse', amount: 'about 100 hours of effective training', image: 'treehouse.svg'}]
+
       //- Use the index value to determine when to add the .right class
       each item, index in educationItems
         if index % 2 === 1
@@ -77,10 +78,10 @@ html.no-js
         .small-12.medium-8.large-6.columns
           h2 Other things I have done
 
-      - var extraCurricularItems = []
+      - var extraCurricularItems = [{title: 'Speaker of the Council', place: 'Student Association at the Stockholm School of Economics', time: 'March 2014 - March 2015', description: 'As Speaker, I was responsible for leading meetings of the Stucent Council, the highest decision making body of the Student Association. Additionally, I was also responsible for leading the internal Statutory Rules Interpretations Committee of the Student Association.', image: 'sasse.svg'}, {title: 'Head of Logistics', place: 'Students\' Nobel Nightcap', time: 'April 2010 - Jan 2011', description: 'Responsible for arranging and planning the logistics for the project. Coordinated transports of goods and personel before, during and after the event. Also responsible for the internal communication of the project. Led a team of 10.', image: 'nnc.svg'}]
 
       each item, index in extraCurricularItems
-        if index % 2 === 0
+        if index % 2 === 1
           .row.align-right
             .small-12.medium-2.large-3.columns.medium-order-2
               img(src="img/#{item.image}").cv.right
@@ -101,35 +102,4 @@ html.no-js
               p
                 != item.description
 
-            //- 
-            //- <section class="extra-curricular">
-            //-   <div class="row align-center">
-            //-     <div class="small-12 medium-8 large-6 columns">
-            //-       <h2>Other things I have done</h2>
-            //-     </div>
-            //-   </div>
-            //-   <div class="row align-right">
-            //-     <div class="small-12 medium-2 large-3 columns medium-order-2">
-            //-       <img class="cv right" src="img/sasse.svg">
-            //-     </div>
-            //-     <div class="small-12 medium-7 large-6 columns medium-order-1">
-            //-       <h3 class="right">Speaker of the Council</h3>
-            //-       <p class="right">The Student Association at the Stockholm School of Ecnonomics</p>
-            //-       <p class="right">March 2014 - March 2015</p>
-            //-       <p class="right">As Speaker, I was responsible for leading meetings of the Stucent Council, the highest decision making body of the Student Association. Additionally, I was also responsible for leading the internal Statutory Rules Interpretations Committee of the
-            //-         Student Association.</p>
-            //-     </div>
-            //-   </div>
-            //-   <div class="row">
-            //-     <div class="small-12 medium-2 large-3 columns">
-            //-       <img class="cv" src="img/nnc.svg">
-            //-     </div>
-            //-     <div class="small-12 medium-7 large-6 columns">
-            //-       <h3>Head of Logistics</h3>
-            //-       <p>Students' Nobel NightCap</p>
-            //-       <p>Apr 2010 - Jan 2011</p>
-            //-       <p>Responsible for arranging and planning the logistics for the project. Coordinated transports of goods and personel before, during and after the event. Also responsible for the internal communication of the project. Led a team of 10.</p>
-            //-     </div>
-            //-   </div>
-            //- </section>
   include ./includes/footer.jade
