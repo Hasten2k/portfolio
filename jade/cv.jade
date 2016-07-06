@@ -77,6 +77,30 @@ html.no-js
         .small-12.medium-8.large-6.columns
           h2 Other things I have done
 
+      - var extraCurricularItems = []
+
+      each item, index in extraCurricularItems
+        if index % 2 === 0
+          .row.align-right
+            .small-12.medium-2.large-3.columns.medium-order-2
+              img(src="img/#{item.image}").cv.right
+            .small-12.medium-7.large-6.columns.medium-order-1
+              h3.right #{item.title}
+              p.right #{item.place}
+              p.right #{item.time}
+              p.right
+                != item.description
+        else
+          .row
+            .small-12.medium-2.large-3.columns
+              img(src="img/#{item.image}").cv
+            .small-12.medium-7.large-6.columns
+              h3 #{item.title}
+              p #{item.place}
+              p #{item.time}
+              p
+                != item.description
+
             //- 
             //- <section class="extra-curricular">
             //-   <div class="row align-center">
