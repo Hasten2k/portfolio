@@ -1,5 +1,10 @@
 //- Template for portfolio items
 
+//- Variables for use below
+- var itemName = null;
+- var fileName = null;
+- var fileSize = null;
+
 doctype html
 
 html.no-js
@@ -22,6 +27,16 @@ html.no-js
           .small-12.medium-8.large-6.xlarge-5.columns
             block introduction
               p generic introduction
+
+    section.preview
+      .row.align-center
+        .small-12.medium-8.columns
+          a(href="/../img/portfolio/#{itemName}/#{fileName}")
+            div(data-interchange="[/../img/portfolio/#{itemName}/small@2x.png, small], [/../img/portfolio/#{itemName}/medium@2x.png, medium], [/../img/portfolio/#{itemName}/large@2x.png, large]").preview-image
+          .image-meta
+            p.filename Filename: #{fileName}
+            p.filesize Filesize: #{fileSize}
+            p.click-info Click on the image to see it in full size
 
     - isPortfolioTemplate = true
     include ./../includes/footer.jade
