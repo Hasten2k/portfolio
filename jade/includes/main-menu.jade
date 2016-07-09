@@ -8,7 +8,10 @@ div.menu-container
       - var menuItems = [{name: 'Home', link: 'index.html'}, {name: 'Portfolio', link: 'portfolio.html'}, {name: 'CV', link: 'cv.html'}, {name: 'Contact', link: 'contact.html'}]
       each item in menuItems
         li
-          a(href="#{item.link}") #{item.name}
+          if isPortfolioTemplate
+            a(href="../#{item.link}") #{item.name}
+          else
+            a(href="#{item.link}") #{item.name}
 //- 
 //- <div class="menu-container">
 //- 	<div class="row">
