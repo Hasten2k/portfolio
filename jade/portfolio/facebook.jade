@@ -1,9 +1,13 @@
 extends ../includes/portfolioTemplate.jade
 
 append variables
-  - itemName = 'facebook';
-  - fileName = 'sign-up.gif';
-  - fileSize = '1.2 MB';
+  - pageTitle   = "facebook";
+  - fileName    = 'sign-up.gif';
+  - fileSize    = '1.2 MB';
 
 block introduction
   p Another part of a design challenge I set myself. I was to design a sign-up for a product or brand.
+
+block content
+  p You can see the result as a .gif if you click the image above. I am quite happy with how it turned out.
+  p I wanted to mirror the design on Facebooks website, where you have all the sign-up information available right away without any clicks, as much as possible but needed one button to fit both the "sign up" and "sign in" buttons on the same screen initially. I also borrowed a feature from Slack, where you don't provide a password initially, but rather through a link that is sent to the e-mail you register. A neat little extra security feature in my opinion.
