@@ -1,16 +1,19 @@
 //- Template for portfolio items
 
-//- Variables for use below
-block variables
-  - var itemName = null;
-  - var fileName = null;
-  - var fileSize = null;
-
 doctype html
 
 html.no-js
 
   include ./../includes/header.jade
+
+  //- Variables for use in template
+  block variables
+    - var itemName = null;
+    - var fileName = null;
+    - var fileSize = null;
+
+    //- override template variable from header
+    - isPortfolioTemplate = true
 
   body
     include ./../includes/main-menu.jade
@@ -38,5 +41,6 @@ html.no-js
             p.filesize Filesize: #{fileSize}
             p.click-info Click on the image to see it in full size
 
-    - isPortfolioTemplate = true
+
+
     include ./../includes/footer.jade
