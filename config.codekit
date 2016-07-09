@@ -10061,11 +10061,11 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/portfolio\/invoice-template.html": {
+	"\/portfolio\/invoice.html": {
 		"fileType": 8192,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/portfolio\/invoice-template.html",
+		"inputAbbreviatedPath": "\/portfolio\/invoice.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
