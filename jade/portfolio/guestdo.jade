@@ -1,40 +1,16 @@
-doctype html
+extends ../includes/portfolioTemplate.jade
 
-html.no-js
+append variables
+  - pageTitle   = 'guestdo website'
+  - folderName  = 'guestdo';
+  - fileName    = 'guestdo.pdf';
+  - fileSize    = '2.65 MB';
 
-  include ./../includes/header.jade
+block introduction
+  p GuestDo is an app that simplifies the communication between hotels and their guests. They also provide offline city guides for their users.
 
-  body
-    include ./../includes/main-menu.jade
-
-    +masthead('guestdo website')
-
-    +portfolioIntroduction('GuestDo is an app that simplifies the communication between hotels and their guests. They also provide offline city guides for their users.')
-
-    section.preview
-      .row.align-center
-        .small-12.medium-8.columns
-          a(href="../img/portfolio/guestdo/guestdo.pdf")
-            div(data-interchange="[../img/portfolio/guestdo/small@2x.png, small], [../img/portfolio/guestdo/medium@2x.png, medium], [../img/portfolio/guestdo/large@2x.png, large]").preview-image
-          .image-meta
-            p.filename Filename: guestdo.pdf
-            p.filesize Filesize: 2.65 MB
-            p.click-info Click on the image to see it in full size
-
-    section.content
-      .row.align-center
-        .small-12.medium-8.large-6.columns
-          p I was tasked with redesigning GuestDo's website for the launch of the app.
-          p An existing website was already in place that the founders were happy with so I decided to use that as a starting point and inspiration. Many of the elements and all of the colors were kept since these are repeated inside the app.
-          p The look I was going for was a modern but fun look, something that the pink and white color scheme really helped pull off.
-          p The preview is a comparison between the original website and the new version. Since the old version was not built for mobile, the comparison is only between the desktop size of the site.
-
-    section.link
-      .row.align-center
-        .small-12.columns
-          a(href="../portfolio.html").button.hollow.expanded
-            i.cine-icon.cine-icon-angle-left 
-            |  Back to portfolio
-
-
-    include ./../includes/footer.jade
+block content
+  p I was tasked with redesigning GuestDo's website for the launch of the app.
+  p An existing website was already in place that the founders were happy with so I decided to use that as a starting point and inspiration. Many of the elements and all of the colors were kept since these are repeated inside the app.
+  p The look I was going for was a modern but fun look, something that the pink and white color scheme really helped pull off.
+  p The preview is a comparison between the original website and the new version. Since the old version was not built for mobile, the comparison is only between the desktop size of the site.
