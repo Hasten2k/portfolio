@@ -8,9 +8,10 @@ html.no-js
 
   //- Variables for use in template
   block variables
-    - var itemName = null;
-    - var fileName = null;
-    - var fileSize = null;
+    - var pageTitle    = null;
+    - var folderName   = null;
+    - var fileName     = null;
+    - var fileSize     = null;
 
     //- override template variable from header
     - isPortfolioTemplate = true
@@ -23,7 +24,7 @@ html.no-js
       .row.align-middle
         .small-12.columns
           block title
-            h1 #{itemName}
+            h1 #{pageTitle}
 
     section.introduction
       .row.align-center
