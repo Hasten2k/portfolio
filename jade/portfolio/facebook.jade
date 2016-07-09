@@ -1,9 +1,10 @@
-- itemName = facebook;
-
 extends ../includes/portfolioTemplate.jade
 
-block title
-  h1 facebook
+append variables
+  - itemName = 'facebook';
+
+//- block title
+//-   h1 #{itemname}
 
 block introduction
   p Another part of a design challenge I set myself. I was to design a sign-up for a product or brand.
