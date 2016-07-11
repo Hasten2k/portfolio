@@ -1,59 +1,65 @@
-h1, h2, h3, h4, h5, h6, p {
-	@include breakpoint(small) {
-		text-align: center;
-	}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  @include breakpoint(small) {
+    text-align: center;
+  }
 }
 
 h1 {
-	color: $white;
-	font-weight: 600;
+  color: $white;
+  font-weight: 600;
 }
 
 .link {
-	text-align: center;
-	font-weight: $font-weight-regular;
+  font-weight: $font-weight-regular;
+  text-align: center;
 }
 
 
 // ----------------------
-// 		masthead
+//     masthead
 // ----------------------
 
 .masthead {
-	@include breakpoint(small) {
-		background-image: url('../img/masthead_bg_small.svg');
-		background-position: 50% 0;
-		background-repeat: no-repeat;
-		background-color: $primary-color; // Color fallback for devices that cant use .svg files
-	}
-	@include breakpoint(medium) {
-		background-image: url('../img/masthead_bg_medium.svg');
-	}
-	@include breakpoint(large) {
-		background-image: url('../img/masthead_bg_large.svg');
-	}
-	@include breakpoint(xlarge) {
-		background-image: url('../img/masthead_bg_xlarge.svg');
-	}
+  @include breakpoint(small) {
+    background-color: $primary-color; // Color fallback for devices that cant use .svg files
+    background-image: url('../img/masthead_bg_small.svg');
+    background-position: 50% 0;
+    background-repeat: no-repeat;
+  }
+  @include breakpoint(medium) {
+    background-image: url('../img/masthead_bg_medium.svg');
+  }
+  @include breakpoint(large) {
+    background-image: url('../img/masthead_bg_large.svg');
+  }
+  @include breakpoint(xlarge) {
+    background-image: url('../img/masthead_bg_xlarge.svg');
+  }
 }
 
 .introduction {
-	p {
-		color: $dark-gray;
-		font-size: $global-font-size * 1.1;
-		font-weight: $font-weight-regular;
-	}
+  p {
+    color: $dark-gray;
+    font-size: $global-font-size * 1.1;
+    font-weight: $font-weight-regular;
+  }
 }
 
 // ----------------------
-// 		footer
+//     footer
 // ----------------------
 
 footer {
-	background-color: $black;
-	color: $white;
+  background-color: $black;
+  color: $white;
 
-	.ie-disclaimer {
-		font-size: $global-font-size * .8;
-	}
+  .ie-disclaimer {
+    font-size: $global-font-size * .8;
+  }
 }
