@@ -13,6 +13,9 @@ html.no-js
     - var fileName     = null;
     - var fileSize     = null;
 
+    // use this variable to change location of the full-size link
+    - var linkOverride = '/../img/portfolio/';
+
     //- override template variable from header
     - isPortfolioTemplate = true
 
@@ -35,7 +38,7 @@ html.no-js
     section.preview
       .row.align-center
         .small-12.medium-8.columns
-          a(href="/../img/portfolio/#{folderName}/#{fileName}")
+          a(href="#{linkOverride}#{folderName}/#{fileName}")
             div(data-interchange="[/../img/portfolio/#{folderName}/small@2x.png, small], [/../img/portfolio/#{folderName}/medium@2x.png, medium], [/../img/portfolio/#{folderName}/large@2x.png, large]").preview-image
           .image-meta
             p.filename Filename: #{fileName}
