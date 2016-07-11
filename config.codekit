@@ -11,156 +11,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/big-sur\/css\/app.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/big-sur\/css\/app.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/big-sur\/img\/bixby.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.24586e+06,
-		"inputAbbreviatedPath": "\/big-sur\/img\/bixby.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/bixby.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/calendar.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 263240,
-		"inputAbbreviatedPath": "\/big-sur\/img\/calendar.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/calendar.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/camping.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 222139,
-		"inputAbbreviatedPath": "\/big-sur\/img\/camping.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/camping.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/events.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 275749,
-		"inputAbbreviatedPath": "\/big-sur\/img\/events.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/events.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/food-drink.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 158491,
-		"inputAbbreviatedPath": "\/big-sur\/img\/food-drink.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/food-drink.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/header-bg.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.8037e+06,
-		"inputAbbreviatedPath": "\/big-sur\/img\/header-bg.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/header-bg.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/hiking.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 278663,
-		"inputAbbreviatedPath": "\/big-sur\/img\/hiking.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/hiking.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/lodging.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 141907,
-		"inputAbbreviatedPath": "\/big-sur\/img\/lodging.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/lodging.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/real-estate.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 327772,
-		"inputAbbreviatedPath": "\/big-sur\/img\/real-estate.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/real-estate.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/serenity.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 1.00604e+06,
-		"inputAbbreviatedPath": "\/big-sur\/img\/serenity.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/serenity.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/sports.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 175852,
-		"inputAbbreviatedPath": "\/big-sur\/img\/sports.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/sports.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/img\/tours.jpg": {
-		"fileType": 16384,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 467945,
-		"inputAbbreviatedPath": "\/big-sur\/img\/tours.jpg",
-		"outputAbbreviatedPath": "\/big-sur\/img\/tours.jpg",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 1
-		},
-	"\/big-sur\/index.html": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/big-sur\/index.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/bower.json": {
 		"fileType": 524288,
 		"ignore": 1,
@@ -5645,6 +5495,17 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
+	"\/jade\/portfolio\/big-sur.jade": {
+		"compileDebug": 1,
+		"fileType": 512,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/jade\/portfolio\/big-sur.jade",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur.html",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0
+		},
 	"\/jade\/portfolio\/card-payment.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
@@ -5929,6 +5790,156 @@
 		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/big-sur\/css\/app.css": {
+		"fileType": 16,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/css\/app.css",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/portfolio\/big-sur\/img\/bixby.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.24586e+06,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/bixby.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/bixby.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/calendar.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 263240,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/calendar.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/calendar.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/camping.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 222139,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/camping.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/camping.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/events.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 275749,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/events.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/events.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/food-drink.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 158491,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/food-drink.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/food-drink.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/header-bg.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.8037e+06,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/header-bg.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/header-bg.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/hiking.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 278663,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/hiking.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/hiking.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/lodging.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 141907,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/lodging.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/lodging.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/real-estate.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 327772,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/real-estate.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/real-estate.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/serenity.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1.00604e+06,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/serenity.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/serenity.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/sports.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 175852,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/sports.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/sports.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/img\/tours.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 467945,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/img\/tours.jpg",
+		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/tours.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 1
+		},
+	"\/portfolio\/big-sur\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/portfolio\/big-sur\/index.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
