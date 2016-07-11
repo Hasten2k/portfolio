@@ -4067,15 +4067,6 @@
 		"randomFootnoteNumbers": 0,
 		"useCompatibilityMode": 0
 		},
-	"\/contact.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/contact.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/css\/app.css": {
 		"fileType": 16,
 		"ignore": 1,
@@ -5475,7 +5466,7 @@
 		"inputAbbreviatedPath": "\/jade\/portfolio\/guestdo.jade",
 		"outputAbbreviatedPath": "\/portfolio\/guestdo.html",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 0
 		},
 	"\/jade\/portfolio\/imdb.jade": {
@@ -5516,10 +5507,10 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/js\/app.js",
-		"outputAbbreviatedPath": "js\/min\/app-min.js",
+		"outputAbbreviatedPath": "\/js\/min\/app-min.js",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"outputStyle": 2,
+		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/js\/min\/app-min.js": {
@@ -5564,7 +5555,7 @@
 		},
 	"\/portfolio\/big-sur\/css\/app.css": {
 		"fileType": 16,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/portfolio\/big-sur\/css\/app.css",
 		"outputAbbreviatedPath": "No Output Path",
@@ -5580,7 +5571,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/bixby.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/calendar.jpg": {
 		"fileType": 16384,
@@ -5591,7 +5582,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/calendar.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/camping.jpg": {
 		"fileType": 16384,
@@ -5602,7 +5593,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/camping.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/events.jpg": {
 		"fileType": 16384,
@@ -5613,7 +5604,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/events.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/food-drink.jpg": {
 		"fileType": 16384,
@@ -5624,7 +5615,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/food-drink.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/header-bg.jpg": {
 		"fileType": 16384,
@@ -5635,7 +5626,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/header-bg.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/hiking.jpg": {
 		"fileType": 16384,
@@ -5646,7 +5637,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/hiking.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/lodging.jpg": {
 		"fileType": 16384,
@@ -5657,7 +5648,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/lodging.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/real-estate.jpg": {
 		"fileType": 16384,
@@ -5668,7 +5659,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/real-estate.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/serenity.jpg": {
 		"fileType": 16384,
@@ -5679,7 +5670,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/serenity.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/sports.jpg": {
 		"fileType": 16384,
@@ -5690,7 +5681,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/sports.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/img\/tours.jpg": {
 		"fileType": 16384,
@@ -5701,7 +5692,7 @@
 		"outputAbbreviatedPath": "\/portfolio\/big-sur\/img\/tours.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
-		"processed": 1
+		"processed": 0
 		},
 	"\/portfolio\/big-sur\/index.html": {
 		"fileType": 8192,
@@ -6151,26 +6142,6 @@
 	],
 "lastSavedByUser": "Calle Stålhem",
 "manualImportLinks": {
-	"\/js\/app.js": [
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/jquery\/dist\/jquery.js",
-			"position": 0,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/what-input\/what-input.js",
-			"position": 1,
-			"type": 0
-			},
-		{
-			"followForSyntaxChecking": 1,
-			"linkedFileAbbreviatedPath": "\/bower_components\/foundation-sites\/dist\/foundation.js",
-			"position": 2,
-			"type": 0
-			}
-		]
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
