@@ -37,11 +37,11 @@ html.no-js
           h2 Prefer Social Media?
           p Here's where to find me!
       .row.align-center
-        - var socialItems = [{name: 'Dribbble', link: 'https://dribbble.com/cstalhem', image: 'dribbble.svg'}, {name: 'GitHub', link: 'https://github.com/Hasten2k', image: 'github.svg'}, {name: 'Behance', link: 'https://www.behance.net/Cstalhemfe74', image: 'behance.svg'}, {name: 'LinkedIn', link: 'https://se.linkedin.com/in/cstalhem', image: 'linkedin.svg'}, {name: 'Facebook', link: 'https://www.facebook.com/cstalhem', image: 'facebook.svg'}]
-        each item in socialItems
-          .small-6.medium-4.large-3
-            a(href="#{item.link}")
-              img(src="img/#{item.image}")
-              p #{item.name}
+        - var socialItems = [{name: 'Dribbble', link: 'https://dribbble.com/cstalhem', image: 'dribbble.svg'}, {name: 'GitHub', link: 'https://github.com/Hasten2k', image: 'github.svg'}, {name: 'Behance', link: 'https://www.behance.net/Cstalhemfe74', image: 'behance.svg'}, {name: 'LinkedIn', link: 'https://se.linkedin.com/in/cstalhem', image: 'linkedin.svg'}]
+  each item in socialItems
+    .small-6.medium-4.large-3
+      a(href="#{item.link}")
+        img(src="img/#{item.image}")
+        p #{item.name}
 
     include ./includes/footer.jade
