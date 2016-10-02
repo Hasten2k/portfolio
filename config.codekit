@@ -5335,15 +5335,6 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
-	"\/dist\/portfolio.html": {
-		"fileType": 8192,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/dist\/portfolio.html",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/dist\/portfolio\/big-sur.html": {
 		"fileType": 8192,
 		"ignore": 1,
@@ -5653,7 +5644,7 @@
 	"\/jade\/includes\/footer.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/includes\/footer.jade",
 		"outputAbbreviatedPath": "\/dist\/includes\/footer.html",
@@ -5664,7 +5655,7 @@
 	"\/jade\/includes\/header.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/includes\/header.jade",
 		"outputAbbreviatedPath": "\/dist\/includes\/header.html",
@@ -5675,7 +5666,7 @@
 	"\/jade\/includes\/main-menu.jade": {
 		"compileDebug": 1,
 		"fileType": 512,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/jade\/includes\/main-menu.jade",
 		"outputAbbreviatedPath": "\/dist\/includes\/main-menu.html",
