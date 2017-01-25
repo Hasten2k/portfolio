@@ -54,7 +54,7 @@ body
 
     .row.align-center
       //- Build an array of objects with tools and images
-      - var tools = [{name: 'Sketch', filename: 'sketch.svg'}, {name: 'Photoshop CS6', filename: 'photoshop.svg'}, {name: 'CodeKit', filename: 'codekit.svg'}, {name: 'Atom.io', filename: 'atom.svg'}, {name: 'Foundation 6', filename: 'foundation.svg'}, {name: 'Bootstrap 4', filename: 'bootstrap.svg'}, {name: 'Jade', filename: 'jade.svg'}, {name: 'HTML 5', filename: 'html5.svg'},  {name: 'SASS', filename: 'sass.svg'}, {name: 'CSS 3', filename: 'css3.svg'}, {name: 'JavaScript', filename: 'js.svg'}]
+      - var tools = [{name: 'Sketch', filename: 'sketch.svg'}, {name: 'Photoshop CS6', filename: 'photoshop.svg'}, {name: 'CodeKit', filename: 'codekit.svg'}, {name: 'Atom.io', filename: 'atom.svg'}, {name: 'Foundation 6', filename: 'foundation.svg'}, {name: 'Bootstrap 4', filename: 'bootstrap.svg'}, {name: 'Jade/Pug.js', filename: 'jade.svg'}, {name: 'HTML 5', filename: 'html5.svg'},  {name: 'SASS', filename: 'sass.svg'}, {name: 'CSS 3', filename: 'css3.svg'}, {name: 'JavaScript', filename: 'js.svg'}]
       //- Iterate over the tools array above
       each val, index in tools 
         div.small-6.medium-4.large-3.columns
@@ -67,7 +67,7 @@ body
         h2 Some of the formal stuff
         p What I have studied and where
 
-    - var cvContent = [{title: 'BSc in Business & Economics', place: 'Stockholm School of Economics', amount: '180 ECTS', image: 'sse.svg'}, {title: 'International Relations', place: 'Stockholm University', amount: '30 ECTS', image: 'su.svg'}, {title: 'Web Design & Programming', place: 'Team Treehouse', amount: 'about 100 hours of effective training', image: 'treehouse.svg'}]
+    - var cvContent = [{title: 'BE in Computer Engineering', place: 'Kungliga Tekniska Högskolan', amount: '180 ECTS', image: 'kth.svg'},{title: 'BSc in Business & Economics', place: 'Stockholm School of Economics', amount: '180 ECTS', image: 'sse.svg'}, {title: 'Web Design & Programming', place: 'Team Treehouse', amount: 'about 100 hours of effective training', image: 'treehouse.svg'}]
     .row.align-center
       each item in cvContent
         .small-12.medium-8.large-6.columns
