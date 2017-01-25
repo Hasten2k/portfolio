@@ -8,10 +8,11 @@ html.no-js
 
   //- Variables for use in template
   block variables
-    - var pageTitle    = null;
-    - var folderName   = null;
-    - var fileName     = null;
-    - var fileSize     = null;
+    - var pageTitle      = null;
+    - var folderName     = null;
+    - var fileName       = null;
+    - var fileSize       = null;
+    - var imgDescription = "Click on the image to see it in full size"; //- Override image description if needed
 
     // use this variable to change location of the full-size link
     - var linkOverride = '/../img/portfolio/';
@@ -43,7 +44,7 @@ html.no-js
           .image-meta
             p.filename Filename: #{fileName}
             p.filesize Filesize: #{fileSize}
-            p.click-info Click on the image to see it in full size
+            p.click-info #{imgDescription}
 
     section.content
       .row.align-center
